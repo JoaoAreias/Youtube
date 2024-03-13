@@ -1,7 +1,8 @@
 # [Leetcode 368 - Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/)
 
+Vídeo com a explicação completa
 
-[![Explicação](https://youtube.com/live/tgyl0CsRHX4)](https://youtube.com/live/tgyl0CsRHX4 "Leetcode 368 - Largest Divisible Subset")
+[![Explicação](https://img.youtube.com/vi/tgyl0CsRHX4/0.jpg)](https://youtube.com/live/tgyl0CsRHX4 "Leetcode 368 - Largest Divisible Subset")
 
 Para ver a descrição do problema visite o link no título
 
