@@ -6,7 +6,7 @@
 
 Vídeo com a explicação
 
-[![Explicação](https://img.youtube.com/vi/jEngyMDIByg/0.jpg)](https://youtube.com/live/jEngyMDIByg "Maratona Mineira 2022 - D")
+[![Explicação](https://img.youtube.com/vi/Emt1w2h9Aq0/0.jpg)](https://www.youtube.com/watch?v=Emt1w2h9Aq0 "Maratona Mineira 2022 - D")
 
 Para ver a descrição do problema visite o link no título
 
