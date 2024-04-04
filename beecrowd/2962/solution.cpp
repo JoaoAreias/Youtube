@@ -9,7 +9,7 @@ public:
     UnionFind(int n) {
         for (int i = 0; i < n; i++){
             parent[i] = i;
-            rank[i] = 1;
+            rank[i] = 0;
         }
     }
 

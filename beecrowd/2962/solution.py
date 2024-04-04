@@ -1,10 +1,9 @@
 from sys import stdin
 from math import dist
 
-
 class UnionFind:
     def __init__(self, n: int) -> None:
-        self.rank = [1] * n
+        self.rank = [0] * n
         self.parent = [i for i in range(n)]
 
     def find(self, n: int) -> int:
@@ -12,7 +11,7 @@ class UnionFind:
         if n != self.parent[n]:
             self.parent[n] = self.find(self.parent[n])
         return self.parent[n]
-    
+
     def union(self, a: int, b: int) -> None:
         root_a = self.find(a)
         root_b = self.find(b)
@@ -56,7 +55,6 @@ def main():
         if x - s <= 0:
             union_find.union(3, i + 4)
 
-    # print([(i, v) for i, v in enumerate(union_find.parent)])
 
     for i, (x1, y1, s1) in enumerate(sensors): # type: ignore
         for j, (x2, y2, s2) in enumerate(sensors[i+1:]): # type: ignore
@@ -66,7 +64,6 @@ def main():
 
                 union_find.union(idx_i, idx_j)
 
-    # print([(i, v) for i, v in enumerate(union_find.parent)])
 
     if union_find.connected(0, 1) or union_find.connected(0, 2) or \
        union_find.connected(3, 1) or union_find.connected(3, 2):

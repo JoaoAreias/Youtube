@@ -1,0 +1,9 @@
+.virtual_documents/*
+.mypy_cache/**/*
+/**/__pycache__/*
+/**/.vscode/*
+/**/target/*
+/**/.ipynb_checkpoints/*
+/**/input/*
+/**/output/*
+/**/*.txt
